@@ -163,3 +163,4 @@ def places_search():
             i += 1
 
     return jsonify([obj.to_dict() for obj in places])
+
